@@ -1,0 +1,124 @@
+body{
+  background-color: antiquewhite;
+}
+.calc{
+    width: 300px;
+    height: 300px;
+    border: 4px solid black;
+    position: relative;
+    padding: 200px; 
+    padding-left: 90px;
+    padding-right: 100px;
+    margin-left: 550px;
+    margin-top: 30px;
+    background-color: white; 
+    
+}
+button{
+    justify-content:flex-start;
+    
+}
+.one{
+    background-color: white;
+    padding: 30px;
+    position: relative;
+    align-self:center;
+} 
+.one:hover{
+    background-color: whitesmoke;
+}
+.two{
+    background-color: white;
+    padding: 30px;
+}
+.two:hover{
+    background-color:whitesmoke;
+}
+.three{
+    background-color: white;
+    padding: 30px;
+}
+.three:hover{
+    background-color: whitesmoke;
+}
+.add{
+    background-color: silver;
+    padding: 29px;
+}
+.add:hover{
+    background-color: whitesmoke;
+}
+.four{
+    background-color: white;
+    padding: 30px;
+}
+.four:hover{
+    background-color: whitesmoke;
+}
+.five{
+    background-color: white;
+    padding: 30px;
+}
+.five:hover{
+    background-color: whitesmoke;
+}
+.six{
+    padding: 30px;  
+    background-color: white;
+}
+.six:hover{
+    background-color: whitesmoke;
+}
+.sub{
+    background-color: silver;
+    padding: 30px;
+}
+.sub:hover{
+    background-color: whitesmoke;
+}
+.seven{
+    background-color: white;
+    padding: 30px;
+}
+.seven:hover{
+    background-color: whitesmoke;
+}
+.eight{
+    background-color: white;
+    padding: 30px;
+}
+.eight:hover{
+    background-color: whitesmoke;
+}
+.nine{
+    background-color: white;
+    padding: 30px;
+}
+.nine:hover{
+    background-color: whitesmoke;
+}
+.mul{
+    background-color: silver;
+    padding:30px;
+    font-size: medium;
+}
+.mul:hover{
+    background-color: whitesmoke;
+}
+.zero{
+    background-color: white;
+    padding:30px;
+}
+.div{
+    background-color: white;
+    padding:30px;
+}
+.del{
+    background-color: white;
+    padding:28px;
+}
+.answer{
+    background-color: blanchedalmond;
+    padding:30px;
+    font-size: large;
+}

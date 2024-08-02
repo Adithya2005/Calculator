@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script src="main.js"></script>
+  <div class="calc"><h1 style="margin-top:-150px;position: relative;text-align: center;font-family: monospace;"><b><i>Calculator</i></b></h1><br>
+    <div id="display" style="width: 230px;background-color: whitesmoke;padding: 40px;padding-top: 40px;border-radius: 20px;height: 30px"></div><br>
+    <button class="one" onclick="addtodisplay('1')">1</button>
+    <button class="two"onclick="addtodisplay('2')">2</button>
+    <button class="three"onclick="addtodisplay('3')">3</button>
+    <button class="add"onclick="addtodisplay('+')">+</button><br>
+    <button class="four"onclick="addtodisplay('4')">4</button>
+    <button class="five"onclick="addtodisplay('5')">5</button>
+    <button class="six"onclick="addtodisplay('6')">6</button>
+    <button class="sub"onclick="addtodisplay('-')">-</button><br>
+    <button class="seven"onclick="addtodisplay('7')">7</button>
+    <button class="eight"onclick="addtodisplay('8')">8</button>
+    <button class="nine"onclick="addtodisplay('9')">9</button>
+    <button class="mul"onclick="addtodisplay('*')">*</button><br>
+    <button class="zero"onclick="addtodisplay('0')">0</button>
+    <button class="div"onclick="addtodisplay('/')">/</button>
+    <button class="del" onclick="cleardisplay()">AC</butt0n>
+    <button class="answer" onclick="calculateresult()">=</button>
+
+  </div>
+  
+</body>
+</html>
